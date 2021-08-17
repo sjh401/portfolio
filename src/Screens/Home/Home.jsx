@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
             <div className='tosubmit'>
                 <div>
                     Welcome!
-                    
+
                     More coming soon...
                 </div>
                 <div>

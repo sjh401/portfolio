@@ -1,9 +1,9 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import About from './Screens/About/About';
+// import About from './Screens/About/About';
 import Home from './Screens/Home/Home';
-import Repos from './Screens/Repos/Repos';
-import Skills from './Screens/Skills/Skills';
+// import Repos from './Screens/Repos/Repos';
+// import Skills from './Screens/Skills/Skills';
 
 const App = () => {
   return (
