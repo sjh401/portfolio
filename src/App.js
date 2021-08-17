@@ -8,7 +8,7 @@ import Skills from './Screens/Skills/Skills';
 const App = () => {
   return (
     <div className="App">
-        <Route path="/about">
+        {/* <Route path="/about">
           <About />
         </Route>
         <Route path="/repos">
@@ -16,7 +16,7 @@ const App = () => {
         </Route>
         <Route path="/skills">
           <Skills />
-        </Route>
+        </Route> */}
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
