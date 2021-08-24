@@ -1,7 +1,9 @@
+import './Nav.css'
+
 export default function Nav(props) {
     return (
-        <nav>
-            
-        </nav>
+        <header>
+            Welcome.
+        </header>
     )
 }

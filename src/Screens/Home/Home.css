@@ -1,0 +1,35 @@
+p {
+    margin: 0;
+}
+
+.home-div {
+    display: grid;
+    grid: repeat(10, 8.5vh)/repeat(10, 10vw)
+}
+
+.welcome {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-area: 1/5/2/7;
+}
+
+.home-projects-div {
+    display: flex;
+    grid-area: 3/4/7/8;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap
+}
+.home-project-div {
+    display: flex;
+    width: 18vw;
+    height: 15vh;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    background-size: 10vw 10vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 1vh
+}
