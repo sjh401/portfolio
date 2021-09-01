@@ -1,7 +1,9 @@
 main {
-    height: 85vh;
+    height: 80vh;
     width: 100vw;
-    background-color: #F3F2F0;
+    background-color: #d4df9e;
+    color: #333432;
+    font-size: xx-large;
 }
 
 /*  F3F2F0 light shades background on light designs or text color on inverted   

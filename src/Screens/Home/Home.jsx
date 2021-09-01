@@ -21,17 +21,30 @@ export default function Home() {
                         <div className="home-project-div">
                             <a href="https://unruffled-khorana-2d5436.netlify.app/" className="home-project-link">
                                 <img src="https://i.imgur.com/DV2pqoj.png" className="home-project-img" alt="project 2"/>
-                                <div>General Assembly SEI Project 2: Chick'n'r React Base Game</div>
+                                <div>General Assembly SEI Project 2: Chick'n'r - React Based Game</div>
                             </a>
                         </div>
                         <div className="home-project-div">
                             <a href="https://stoic-cray-4ca41b.netlify.app/" className="home-project-link">
                             <img src="https://i.imgur.com/5gzMpHW.png" className="home-project-img" alt="project 3"/>
-                                <div>General Assembly SEI Project 3: Forumtopia Group MERN Forum</div>
+                                <div>General Assembly SEI Project 3: Forumtopia - Group MERN Forum</div>
+                                </a>
+                        </div>
+                        <div className="home-project-div">
+                            <a href="https://awesome-dubinsky-dea5d4.netlify.app" className="home-project-link">
+                            <img src="https://i.imgur.com/vBo1XjP.png" className="home-project-img" alt="project 3"/>
+                                <div>General Assembly SEI Project 4: Destination Hot Dog - Full Stack React Rails Fourm</div>
                                 </a>
                         </div>
                 </div>
+                
             </div>
         </Layout>
     )
 }
+
+// 12100e
+// 30321c
+// 4a4b2f
+// 6b654b
+// d4df9e
