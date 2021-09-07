@@ -4,7 +4,8 @@ p {
 
 .home-div {
     display: grid;
-    grid: repeat(10, 8vh)/repeat(10, 10vw)
+    grid: repeat(10, 8vh)/repeat(10, 10vw);
+    justify-items: center;
 }
 
 .welcome {
@@ -13,6 +14,7 @@ p {
     justify-items: center;
     grid-area: 1/5/2/7;
     color: #12100e;
+    font-size: 3vmin;
 }
 
 .home-projects-div {
@@ -20,31 +22,34 @@ p {
     grid-area: 3/4/9/8;
     justify-content: center;
     justify-items: center;
+    align-content: center;
     flex-flow: row wrap;
+    width: 60vmin;
+    height: 50vmin;
     background-color: #4a4b2f;
     border-radius: 10px;
 }
 .home-project-div {
     display: flex;
-    width: 225px;
-    height: 150px;
+    width: 25vmin;
+    height: 20vmin;
     justify-content: center;
     text-align: center;
     align-items: center;
     background-color: #6b654b;
-    background-size: 10vw 10vh;
+    background-size: 10vmin 10vmin;
     background-repeat: no-repeat;
     background-position: top;
     color: #d4df9e;
-    margin: 1vh;
-    padding: 1vh;
-    font-size: 1.75vh;
+    margin: 1vmin;
+    padding: 1vmin;
+    font-size: 1.75vmin;
     border-radius: 10px;
 }
 
 .home-project-img {
-    width: 10vw;
-    height: 10vh;
+    width: 18vmin;
+    height: 10vmin;
 }
 
 .home-project-link {

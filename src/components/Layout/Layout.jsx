@@ -1,5 +1,5 @@
-import Nav from '../Nav/Nav'
-import Footer from '../Footer/Footer'
+import Nav from './Nav'
+import Footer from './Footer'
 import './Layout.css'
 
 const Layout = (props) => (

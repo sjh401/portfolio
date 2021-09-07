@@ -1,4 +1,4 @@
-import './Nav.css'
+import './Layout.css'
 
 export default function Nav(props) {
     return (

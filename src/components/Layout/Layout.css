@@ -1,9 +1,23 @@
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #30321c;
+    color: #d4df9e;
+}
+
 main {
-    height: 80vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     background-color: #d4df9e;
     color: #333432;
     font-size: xx-large;
+}
+
+footer {
+    /* height: 100%; */
+    width: 100%;
+    background-color: #30321c;
+    color: #d4df9e;
 }
 
 /*  F3F2F0 light shades background on light designs or text color on inverted   

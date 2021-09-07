@@ -1,10 +1,8 @@
-import Layout from "../../components/Layout/Layout";
-
-
 export default function Welcome() {
     return (
-        <Layout>
-            
-        </Layout>
+        <div className="welcome">
+            Welcome!
+            More coming soon...
+        </div>
     )
 }
