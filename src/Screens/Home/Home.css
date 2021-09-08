@@ -26,7 +26,7 @@ p {
     flex-flow: row wrap;
     width: 60vmin;
     height: 50vmin;
-    background-color: #4a4b2f;
+    /* background-color: #0d1b2a; */
     border-radius: 10px;
 }
 .home-project-div {
@@ -36,11 +36,11 @@ p {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #6b654b;
+    /* background-color: #415a77; */
     background-size: 10vmin 10vmin;
     background-repeat: no-repeat;
     background-position: top;
-    color: #d4df9e;
+    color: #e0e1dd;
     margin: 1vmin;
     padding: 1vmin;
     font-size: 1.75vmin;
@@ -53,6 +53,6 @@ p {
 }
 
 .home-project-link {
-    color: #d4df9e;
+    color: #e0e1dd;
     text-decoration: none;
 }
