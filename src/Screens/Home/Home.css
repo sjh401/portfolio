@@ -4,55 +4,6 @@ p {
 
 .home-div {
     display: grid;
-    grid: repeat(10, 8vh)/repeat(10, 10vw);
+    grid: repeat(3, 1fr)/repeat(10, 10vw);
     justify-items: center;
-}
-
-.welcome {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-    grid-area: 1/5/2/7;
-    color: #12100e;
-    font-size: 3vmin;
-}
-
-.home-projects-div {
-    display: flex;
-    grid-area: 3/4/9/8;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    flex-flow: row wrap;
-    width: 60vmin;
-    height: 50vmin;
-    /* background-color: #0d1b2a; */
-    border-radius: 10px;
-}
-.home-project-div {
-    display: flex;
-    width: 25vmin;
-    height: 20vmin;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    /* background-color: #415a77; */
-    background-size: 10vmin 10vmin;
-    background-repeat: no-repeat;
-    background-position: top;
-    color: #e0e1dd;
-    margin: 1vmin;
-    padding: 1vmin;
-    font-size: 1.75vmin;
-    border-radius: 10px;
-}
-
-.home-project-img {
-    width: 18vmin;
-    height: 10vmin;
-}
-
-.home-project-link {
-    color: #e0e1dd;
-    text-decoration: none;
 }
