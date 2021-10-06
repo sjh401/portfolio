@@ -1,81 +1,88 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-
+import React, {useState, useEffect} from 'react';
 import './Skills.css'
 
-export default function Skills(props) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+// import { fa } from '@fortawesome/free-solid-svg-icons'
+
+function Skills() {
+  const [increment, setIncrement ] = useState(0);
+  const [ display, setDisplay ] = useState([])
+    const slides =     [
+
+        { title: 'JAVASCRIPT', icon: <i data-testid="icon" className="devicon-javascript-plain"></i> },
+  
+        { title: 'REACT', icon: <i data-testid="icon" className="devicon-react-original"></i> },
+  
+        { title: 'RUBY ON RAILS', icon: <i data-testid="icon" className="devicon-rails-plain"></i> },
+
+        { title: 'CSS3', icon: <i data-testid="icon" className="devicon-css3-plain"></i> },
+  
+        { title: 'HTML5', icon: <i data-testid="icon" className="devicon-html5-plain"></i> },
+  
+        { title: 'RUBY', icon: <i data-testid="icon" className="devicon-ruby-plain"></i> },
+  
+        { title: 'MONGODB', icon:  <i data-testid="icon" className="devicon-mongodb-plain"></i> },
+  
+        { title: 'REST API', icon: <FontAwesomeIcon data-testid="icon" className="skill-icon" icon={fas.faServer}/> },
+  
+        { title: 'POSTGRESQL', icon: <i data-testid="icon" className="devicon-postgresql-plain"></i> }
+      ]
+        const addResetIncrement = () => {
+            if(increment === slides.length - 3) {
+                setIncrement(0)
+            } else {
+                setIncrement(prevIncrement => prevIncrement += 3)
+            }
+        }
+        const subResetIncrement = () => {
+            if(increment === 0) {
+                setIncrement(0)
+            } else {
+                setIncrement(prevIncrement => prevIncrement -= 3)}
+        }
+
+        console.log(increment)
+        useEffect(() => {
+            setDisplay(slides.filter((slide, index) => index < increment + 3 && index >= increment ))
+        }, [increment])
+
+        if(!display) {
+            return (
+                <div>...Loading </div>
+            )
+        }
     return (
-        <div id="skills-div">
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-javascript-plain"></i>
+        <div className="button-slide">
+                {/* <button data-testid="button-prev" className="small" 
+                onClick={subResetIncrement}></button> */}
+                <div
+                    onClick={subResetIncrement}
+                >
+                    <FontAwesomeIcon data-testid="icon" className="skill-icon" icon={fas.faChevronLeft}/> 
                 </div>
-                <div className="skill-title">
-                    JAVASCRIPT
-                </div>
+            <div id="slide" className="card text-center">
+                {display.map((slide, index) => {
+                    return(
+                        <div key={index} className='skill-div'>
+                            <div className="slide-icon">
+                                {slide.icon}
+                            </div>
+                            <div data-testid="title" className="skill-name">{slide.title}</div>
+                        </div>
+                        )
+                    })}
             </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-css3-plain"></i>
+                <div
+                    onClick={addResetIncrement}
+                >
+                    <FontAwesomeIcon data-testid="icon" className="skill-icon" icon={fas.faChevronRight}/> 
                 </div>
-                <div className="skill-title">
-                    CSS3
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-html5-plain"></i>
-                </div>
-                <div className="skill-title">
-                    HTML5
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-react-original"></i>
-                </div>
-                <div className="skill-title">
-                    REACT
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-ruby-plain"></i>
-                </div>
-                <div className="skill-title">
-                    RUBY
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-rails-plain"></i>
-                </div>
-                <div className="skill-title">
-                    RAILS
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-mongodb-plain"></i>
-                </div>
-                <div className="skill-title">
-                    MONGODB
-                </div>
-            </div>
-            <div className="skill">
-                <FontAwesomeIcon className="skill-icon" icon={fas.faServer} />
-                <div className="skill-title">
-                    REST API
-                </div>
-            </div>
-            <div className="skill">
-                <div className="skill-icon">
-                    <i className="devicon-postgresql-plain"></i>
-                </div>
-                <div className="skill-title">
-                    POSTGRESQL
-                </div>
-            </div>
+                    {/* <button data-testid="button-next" className="small" 
+                    onClick={addResetIncrement}></button> */}
         </div>
-    )
+    );
+
 }
+
+export default Skills;

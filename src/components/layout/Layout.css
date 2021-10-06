@@ -36,9 +36,10 @@ header {
 }
 
 .towork {
-    height:5vh;
-    width:15vw;
+    height: 15vmin;
+    width: auto;
     color: #e0e1dd;
+    font-size: 0.75em;
 }
 
 main {

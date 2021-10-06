@@ -4,6 +4,6 @@ p {
 
 .home-div {
     display: grid;
-    grid: repeat(3, 1fr)/repeat(10, 10vw);
+    grid: repeat(2, 1fr)/repeat(10, 10vw);
     justify-items: center;
 }
