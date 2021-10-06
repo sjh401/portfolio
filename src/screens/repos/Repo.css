@@ -1,6 +1,6 @@
 #projects-div {
     display: flex;
-    grid-area: 3/4/9/8;
+    grid-area: 2/4/9/8;
     justify-content: center;
     justify-items: center;
     align-content: center;

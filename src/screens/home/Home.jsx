@@ -10,7 +10,6 @@ export default function Home() {
         <Layout>
             <div className="home-div">
                 <About />
-                <Skills />
                 <Repos />
             </div>
         </Layout> 
