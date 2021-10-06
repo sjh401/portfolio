@@ -1,6 +1,5 @@
 import About from "../about/About";
 import Repos from "../repos/Repos";
-import Skills from "../skills/Skills";
 import './Home.css'
 import Layout from "../../components/layout/Layout";
 

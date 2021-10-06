@@ -42,9 +42,9 @@ function Skills() {
                 setIncrement(prevIncrement => prevIncrement -= 3)}
         }
 
-        console.log(increment)
         useEffect(() => {
             setDisplay(slides.filter((slide, index) => index < increment + 3 && index >= increment ))
+            // eslint-disable-next-line
         }, [increment])
 
         if(!display) {
