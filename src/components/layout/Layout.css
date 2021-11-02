@@ -1,9 +1,16 @@
 header {
-    background-color: #1b263b;
-    color: #e0e1dd;
+    background-color: #1e2019;
+    color: #d3d0cd;
     position: fixed;
     z-index: 2;
 }
+/* 
+    393e41
+    d3d0cd
+    e2c044
+    587b7f
+    1e2019
+*/
 
 .header-children {
     margin: 0 2vmin;
@@ -19,7 +26,7 @@ header {
 }
 
 .header-links {
-    color: #e0e1dd;
+    color: #d3d0cd;
     text-decoration: none;
     padding: 0 1vmin;
 }
@@ -27,26 +34,27 @@ header {
 .welcome {
     height: 100vh;
     width: 100vw;
-    background-color: #0d1b2a;
+    background-color: #1e2019;
+    color: #393e41;
     display: grid;
     justify-content: center;
     align-items: center;
     font-size: 3vmin;
-    cursor:zoom-in;
+    cursor: pointer;
 }
 
 .towork {
     height: 15vmin;
     width: auto;
-    color: #e0e1dd;
+    color: #d3d0cd;
     font-size: 0.75em;
 }
 
 main {
     height: 100vh;
     width: 100%;
-    background-color: #F3EFF5;
-    color: #e0e1dd;
+    background-color: #d3d0cd;
+    color: #393e41;
     font-size: xx-large;
     overflow-y: auto;
 }
@@ -57,12 +65,12 @@ footer {
     align-items: center;
     height: 10vh;
     width: 100%;
-    background-color: #1b263b;
-    color: #e0e1dd;
+    background-color: #1e2019;
+    color: #d3d0cd;
 }
 
 .icons {
-    color: #e0e1dd;
+    color: #d3d0cd;
     padding: 0 5px;
 }
 /* 0d1b2a

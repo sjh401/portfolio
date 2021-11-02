@@ -59,7 +59,7 @@ function Skills() {
                 <div
                     onClick={subResetIncrement}
                 >
-                    <FontAwesomeIcon data-testid="icon" className="skill-icon" icon={fas.faChevronLeft}/> 
+                    <FontAwesomeIcon data-testid="icon" className="skill-slider" icon={fas.faChevronLeft}/> 
                 </div>
             <div id="slide" className="card text-center">
                 {display.map((slide, index) => {
@@ -76,7 +76,7 @@ function Skills() {
                 <div
                     onClick={addResetIncrement}
                 >
-                    <FontAwesomeIcon data-testid="icon" className="skill-icon" icon={fas.faChevronRight}/> 
+                    <FontAwesomeIcon data-testid="icon" className="skill-slider" icon={fas.faChevronRight}/> 
                 </div>
                     {/* <button data-testid="button-next" className="small" 
                     onClick={addResetIncrement}></button> */}

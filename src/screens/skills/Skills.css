@@ -15,7 +15,7 @@
     width: 20vmin;
     margin: 5vmin;
     border-radius: 5px;
-    background-color: #415a77;
+    background-color: #587b7f;
 }
 .slide-icon {
     display: flex;
@@ -40,6 +40,9 @@
 .small {
     height: 50px;
     width: 100px;
+}
+.skill-slider {
+    color: #e2c044;
 }
 #slide {
     display: flex;
