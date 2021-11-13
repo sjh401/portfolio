@@ -25,7 +25,7 @@ export default function Repos() {
                 </div>
                 <div id="hackathon-sept-2021" className="home-project-div">
                     <a href="https://pamper-pups.surge.sh/" className="home-project-link">
-                        <div className="home-project-div"  >Pamper Pups - MERN - GA Hackathon Project</div>
+                        <div className="home-project-div"  >Pamper Pups - MERN - Hackathon Project</div>
                         </a>
                 </div>
         </div>

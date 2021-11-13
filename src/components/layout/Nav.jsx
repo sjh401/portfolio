@@ -1,3 +1,5 @@
+import { fas } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 
 import './Layout.css'
@@ -10,6 +12,9 @@ export default function Nav(props) {
                 <div className="towork"  onClick={() => setToggle(prevToggle=> !prevToggle)}>
                     <div>Welcome, I am Stephen Harrity.</div>
                     <div>I am a full-stack developer.</div>
+                    <div className="entrance-icon">
+                        <FontAwesomeIcon icon={fas.faAngleDoubleDown} />
+                    </div>
                 </div>
             </div>
             <div className="header-nav">

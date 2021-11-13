@@ -37,7 +37,7 @@ function Skills() {
         }
         const subResetIncrement = () => {
             if(increment === 0) {
-                setIncrement(0)
+                setIncrement(slides.length - 3)
             } else {
                 setIncrement(prevIncrement => prevIncrement -= 3)}
         }

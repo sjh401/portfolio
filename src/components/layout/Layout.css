@@ -40,14 +40,15 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 3vmin;
-    cursor: pointer;
+
 }
 
 .towork {
     height: 15vmin;
     width: auto;
     color: #d3d0cd;
-    font-size: 0.75em;
+    font-size: 0.75em;    
+    cursor: pointer;
 }
 
 main {
@@ -72,6 +73,21 @@ footer {
 .icons {
     color: #d3d0cd;
     padding: 0 5px;
+}
+.entrance-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px;
+}
+.fa-angle-double-down{
+    font-size: xx-large;
+}
+.entrance-icon:hover{
+    transform: scale(2);
+    transition: transform .5s ease-in-out;
 }
 /* 0d1b2a
 1b263b
