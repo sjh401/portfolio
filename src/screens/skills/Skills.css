@@ -13,9 +13,12 @@
     align-items: center;
     height: 20vmin;
     width: 20vmin;
+    min-height: 120px;
+    min-width: 120px;
     margin: 5vmin;
     border-radius: 5px;
     background-color: #587b7f;
+    color: #e0e1dd;
 }
 .slide-icon {
     display: flex;
@@ -26,11 +29,13 @@
     width: 2vmin;
     margin: 0 0 -2vmin 0;
     z-index: 1;
+    color: #e0e1dd;
 }
 .skill-name {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 15vmin;
     width: 15vmin;
     font-size: 0.5em;
@@ -42,7 +47,7 @@
     width: 100px;
 }
 .skill-slider {
-    color: #e2c044;
+    color: #1e2019;
 }
 #slide {
     display: flex;
