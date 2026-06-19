@@ -53,3 +53,13 @@
     display: flex;
     flex-flow: row;
 }
+
+.slide-change {
+    background-color: #587b7f;
+    border-radius: 50%;
+    border: none;
+}
+.skill-slider {
+    padding: 5px;
+    color: #e0e1dd
+}
