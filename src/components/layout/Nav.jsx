@@ -1,5 +1,5 @@
-import { fas } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { fas } from "@fortawesome/free-solid-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
 
 import './Layout.css'
@@ -8,7 +8,7 @@ export default function Nav(props) {
     const [ toggle, setToggle ] = useState(false)
     return (
         <div>
-            <div 
+            {/* <div 
                 // role="dialog" 
                 // aria-modal="true" 
                 // aria-labelledby="welcome_message" 
@@ -17,23 +17,23 @@ export default function Nav(props) {
             >
                 <div 
                     className="towork"  
-                    // onClick={() => setToggle(prevToggle=> !prevToggle)}
+                    onClick={() => setToggle(prevToggle=> !prevToggle)}
                 >
                     <h2 id="welcome_message">Welcome</h2>
                     <div></div>
                     <nav aria-label="Quick Nav" className="header-children">
                         <a href="#about-div" className="header-links">About</a>
                         <a href="#projects-div" className="header-links">Projects</a>
-                        <button class="header-links">Resume</button>
+                        <button class="header-links resume">Resume</button>
                     </nav>
                 </div>
-            </div>
+            </div> */}
             <header>
                 <div className="header-nav">
                     <div className="header-children">
                         Welcome to my portfolio
                     </div>
-                    <nav aria-labe="Primary" className="header-children">
+                    <nav aria-label="Primary" className="header-children">
                         <a href="#about-div" className="header-links">About</a>
                         <a href="#projects-div" className="header-links">Projects</a>
                     </nav>

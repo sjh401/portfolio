@@ -38,11 +38,11 @@ function Skills() {
             }
         };
 
-        const simulateClick = (e) => {
-            if(e.key === 'Enter' || e.key === ' '){
-                this.click();
-            }
-        }
+        // const simulateClick = (e) => {
+        //     if(e.key === 'Enter' || e.key === ' '){
+        //         this.click();
+        //     }
+        // }
 
         useEffect(() => {
             setDisplay(slides.filter((slide, index) => index < increment + 3 && index >= increment ))

@@ -3,7 +3,10 @@ p {
 }
 
 .home-div {
-    display: grid;
-    grid: repeat(2, 1fr)/repeat(10, 10vw);
-    justify-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    overflow: auto;
 }
