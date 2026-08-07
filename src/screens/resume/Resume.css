@@ -1,3 +1,8 @@
 .resume {
-    overflow: scroll;
+    /* overflow: scroll; */
+}
+
+.resume dl {
+    display: flex;
+    flex-flow: row;
 }

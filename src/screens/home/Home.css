@@ -8,5 +8,5 @@ p {
     width: 100vw;
     height: 90vh;
     margin-top: 10vh;
-    overflow: auto;
+    overflow-y: auto;
 }

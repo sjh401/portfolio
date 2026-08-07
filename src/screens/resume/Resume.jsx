@@ -1,3 +1,4 @@
+import './Resume.css'
 export default function Resume() {
     return (
         <section className="resume">
@@ -6,10 +7,10 @@ export default function Resume() {
                     <h3>Languages</h3>
                         <ul>
                             <li>JavaScript</li>
-                            <li>Ruby</li>
                             <li>SQL</li>
                             <li>HTML5</li>
                             <li>CSS3</li>
+                            <li>Ruby</li>
                             <li>Typescript</li>
                         </ul>
 
@@ -87,6 +88,8 @@ export default function Resume() {
                     </dl>
                     <ul>
                         <li>Developed menus and training materials used fleet-wide while managing inventory and staff at the primary location.</li>
+                        <li>Led training sessions in multiple cities, training hundreds of bartenders and supervisors.</li>
+                        <li>Implemented and maintained changes in POS, and NetChef databases and interfaces.</li>
                     </ul>
 
 <h2> EDUCATION </h2>
