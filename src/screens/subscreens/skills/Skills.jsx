@@ -6,8 +6,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 // import { fa } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
-  const [increment, setIncrement ] = useState(0);
-  const [ display, setDisplay ] = useState([])
+    const [increment, setIncrement ] = useState(0);
+    const [ display, setDisplay ] = useState([])
     const slides =     [
 
         { title: 'ACCESSIBILITY', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" class="fa-brands fa-universal-access"></i> },
@@ -38,11 +38,11 @@ function Skills() {
             }
         };
 
-        const simulateClick = (e) => {
-            if(e.key === 'Enter' || e.key === ' '){
-                this.click();
-            }
-        }
+        // const simulateClick = (e) => {
+        //     if(e.key === 'Enter' || e.key === ' '){
+        //         this.click();
+        //     }
+        // }
 
         useEffect(() => {
             setDisplay(slides.filter((slide, index) => index < increment + 3 && index >= increment ))
