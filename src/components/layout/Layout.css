@@ -45,18 +45,52 @@ header {
 }
 
 .welcome {
+    display: grid;
+    position: fixed;
+    z-index: 998;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.dialog-close{
+    display: none;
+}
+
+.welcome-overlay{
+    z-index: 999;
+    background-color:#727577;
+    opacity: .75;
+    position: fixed;
     height: 100vh;
     width: 100vw;
+}
+
+/* .welcome-close {
+    height: 5em;
+    width: 5em;
+
+} */
+.welcome-dialog {
+    height: 50vh;
+    width: 50vw;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    z-index: 1000;
     background-color: #1e2019;
     color: #393e41;
-    display: grid;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     font-size: 3vmin;
-
+    border-radius: 2%;
 }
-
-.towork {
+.dialog-close-btn {
+    position: fixed;
+    
+}
+.welcome-content {
     height: 15vmin;
     width: auto;
     color: #d3d0cd;

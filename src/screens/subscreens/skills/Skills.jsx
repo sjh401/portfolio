@@ -6,8 +6,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 // import { fa } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
-  const [increment, setIncrement ] = useState(0);
-  const [ display, setDisplay ] = useState([])
+    const [increment, setIncrement ] = useState(0);
+    const [ display, setDisplay ] = useState([])
     const slides =     [
 
         { title: 'ACCESSIBILITY', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" class="fa-brands fa-universal-access"></i> },
