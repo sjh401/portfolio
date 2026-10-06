@@ -11,7 +11,7 @@ export default function Home() {
                 <div id="about-div">
                     <div className="about">
                         <div className="about-info">
-                            Hello all, I am software Engineer specializing in frontend development, accessible web applications, and digital accessibility solutions. Experienced building responsive web experiences using JavaScript, React, Ruby on Rails, HTML, and CSS. Skilled in developing user-focused applications, implementing accessibility standards using WCAG and ARIA, and collaborating with cross-functional teams to deliver scalable technology solutions.
+                            Hello all, I am a software engineer specializing in frontend development, accessible web applications, anddigital accessibility solutions. I am passionate about improving acess for everyne through design and am constantly looking to learn new things everyday.
                         </div>
                     </div>
                     <div className="slides">
