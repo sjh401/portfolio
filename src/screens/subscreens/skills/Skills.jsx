@@ -4,7 +4,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fa } from '@fortawesome/free-solid-svg-icons'
+// import { fa } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
     const [increment, setIncrement ] = useState(0);
