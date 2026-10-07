@@ -1,16 +1,17 @@
 import React, {useState, useEffect} from 'react';
 import './Skills.css'
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { fa } from '@fortawesome/free-solid-svg-icons'
+import { fa } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
     const [increment, setIncrement ] = useState(0);
     const [ display, setDisplay ] = useState([])
     const slides =     [
 
-        { title: 'ACCESSIBILITY', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" class="fa-brands fa-universal-access"></i> },
+        { title: 'ACCESSIBILITY', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="fa-brands fa-universal-access"></i> },
         { title: 'JAVASCRIPT', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="devicon-javascript-plain"></i> },
         { title: 'CSS3', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="devicon-css3-plain"></i> },
         { title: 'HTML5', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="devicon-html5-plain"></i> },
@@ -20,8 +21,8 @@ function Skills() {
         { title: 'MONGODB', icon:  <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="devicon-mongodb-plain"></i> },
         { title: 'REST API', icon: <FontAwesomeIcon data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="skill-icon" icon={fas.faServer}/> },
         { title: 'POSTGRESQL', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false" className="devicon-postgresql-plain"></i> },
-        { title: 'GITHUB', icon: <i data-testid="icon" class="fa-brands fa-github"></i> },
-        { title: 'W3C', icon: <i data-testid="icon" className="fa-brands fa-w3c"></i> }
+        { title: 'GITHUB', icon: <GitHubIcon data-testid="icon" style={{color: "#d3d0cd !important"}} role="presentation" aria-hidden="true" clickable="false"  className="skill-icon"></GitHubIcon> },
+        { title: 'W3C', icon: <i data-testid="icon" role="presentation" aria-hidden="true" clickable="false"  className="fa-brands  fa-w3c"></i> }
     ];
         const addResetIncrement = () => {
             if(increment === slides.length - 3) {

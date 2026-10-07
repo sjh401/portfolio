@@ -29,7 +29,8 @@
     width: 2vmin;
     margin: 0 0 -2vmin 0;
     z-index: 1;
-    color: #e0e1dd;
+    color: #d3d0cd;
+    padding: 0 5px;
 }
 .skill-name {
     display: flex;

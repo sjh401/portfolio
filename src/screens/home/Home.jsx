@@ -2,6 +2,7 @@
 import './Home.css'
 import Layout from "../../components/layout/Layout";
 import Skills from '../subscreens/skills/Skills';
+import RepoHighlight from '../subscreens/repoHighlight/RepoHighlight';
 
 export default function Home() {
     return (
@@ -17,6 +18,9 @@ export default function Home() {
                     <div className="slides">
                         <Skills/>
                     </div>
+                </div>
+                <div className="about-work">
+                    <RepoHighlight/>
                 </div>
             </div>
         </Layout> 
