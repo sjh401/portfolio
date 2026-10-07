@@ -1,0 +1,12 @@
+p {
+    margin: 0;
+}
+
+.home-div {
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    overflow-y: auto;
+}
