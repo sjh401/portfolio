@@ -19,16 +19,31 @@
     587b7f
     1e2019
 */
-.home-project-div {
+.home-project-list {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    /* font-size: 1.75vmin; */
+    width: 1000px;
+    height: 1000px;
+    background-size: cover;
+    padding: 5px;
+}
+.home-project-listitem {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+}
+.home-project-term {
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
     background-repeat: no-repeat;
     background-position: top;
-    font-size: 1.75vmin;
-    width: 25vmin;
-    height: 25vmin;
     background-size: cover;
     padding: 5px;
 }
@@ -36,6 +51,9 @@
 
 .home-project-link {
     opacity: 0;
+    width: 250px;
+    height: 250px;
+    text-align: center;
     color: #393e41;
     text-decoration: none;
 }
@@ -43,7 +61,14 @@
     opacity: 1;
     color: #393e41;
 }
-
+.home-project-link:focus {
+    opacity: 1;
+    color: #393e41;
+}
+.home-project-desc {
+    width: 700px;
+    padding: 0px 0px 0px 50px;
+}
 
 
 #home-p1 {
@@ -66,18 +91,18 @@
     background-image: url("https://i.imgur.com/7MXkJQ3.png");
     background-color: #d3d0cd;
 }
-#home-p1:hover {
+#home-p1:hover, #home-p1:focus-within {
     background-image: none;
 }
-#home-p2:hover {
+#home-p2:hover, #home-p2:focus-within {
     background-image: none;
 }
-#home-p3:hover {
+#home-p3:focus-within, #home-p3:hover {
     background-image: none;
 }
-#home-p4:hover {
+#home-p4:hover, #home-p4:focus-within {
     background-image: none;
 }
-#home-hackathon-sept-2021:hover {
+#home-hackathon-sept-2021:focus-within, #home-hackathon-sept-2021:hover {
     background-image: none;
 }
