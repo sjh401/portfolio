@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
         <Layout>
-            <div className="home-div">
+            <div id="home-div">
                 <h1 className="text-center"> Software Engineer </h1>
                 <div id="about-div">
                     <div className="about">

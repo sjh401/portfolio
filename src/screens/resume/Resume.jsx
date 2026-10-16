@@ -5,19 +5,17 @@ export default function Resume() {
         <>
             <Layout>
 
-                <section className="resume">
+                <section id="resume">
+                    <h1 className="text-center">Resume</h1>
                     <div className="resume-data">
                         <h2>SKILLS</h2>
                             <h3>Languages</h3>
                                 <ul>
                                     <li>JavaScript</li>
                                     <li>SQL</li>
-                                    <li>HTML5</li>
-                                    <li>CSS3</li>
                                     <li>Ruby</li>
                                     <li>Typescript</li>
                                 </ul>
-
                             <h3>Frontend Development</h3>
                                 <ul>
                                     <li>React</li>
@@ -27,7 +25,6 @@ export default function Resume() {
                                     <li>UI Development</li>
                                     <li>Component-Based Architecture</li>
                                 </ul>
-
                             <h3>Backend Development</h3>
                                 <ul>
                                     <li>Ruby on Rails</li>
@@ -38,6 +35,7 @@ export default function Resume() {
                                 </ul>
                             <h3>Accessibility</h3>
                                 <ul>
+                                    <li>508 Trusted Tester</li>
                                     <li>WCAG</li>
                                     <li>ARIA</li>
                                     <li>Accessibility Testing</li>
@@ -55,7 +53,6 @@ export default function Resume() {
                                     <li>Cross-functional Collaboration</li>
                                 </ul>
                         <h2>PROFESSIONAL EXPERIENCE</h2>
-
                             <h3>Implementation Developer</h3>
                             <dl>
                                 <dt>Company</dt>
@@ -70,7 +67,6 @@ export default function Resume() {
                                 <li>Troubleshooted frontend implementation issues and collaborated across teams.</li>
                                 <li>Supported projects throughout the software development lifecycle.</li>
                             </ul>
-
                             <h3>Instructional Associate</h3>
                             <dl>
                                 <dt>Company</dt>
@@ -82,11 +78,10 @@ export default function Resume() {
                                 <li>Supported students in a Software Engineering Immersive program focused on full-stack web development.</li>
                                 <li>Provided technical guidance, reviewed assignments, and supported application projects involving JavaScript, React, Ruby on Rails, HTML, CSS, databases, and Git workflows.</li>
                             </ul>
-
                             <h3>Bar Manager</h3>
                             <dl>
                                 <dt>Company</dt>
-                                <dd>Hornblower Cruises &amp; Events</dd>
+                                <dd>Hornblower Cruises and Events</dd>
                                 <dt>Years</dt>
                                 <dd>2013 - 2021</dd>
                             </dl>
@@ -95,14 +90,11 @@ export default function Resume() {
                                 <li>Led training sessions in multiple cities, training hundreds of bartenders and supervisors.</li>
                                 <li>Implemented and maintained changes in POS, and NetChef databases and interfaces.</li>
                             </ul>
-
                         <h2> EDUCATION </h2>
                         <ul> 
                             <li>General Assembly - Software Engineering Immersive Program - 2021</li>
                             <li>Northwestern University - Bachelor of Arts - 2012</li>
                         </ul>
-
-
                     </div>
                     <a href="https://drive.google.com/file/d/1dGT1iPpdKP6G8_YUo6UVU18Xg9CF9bWx/view?usp=drive_link"> View PDF Version Resume </a>
                 </section>

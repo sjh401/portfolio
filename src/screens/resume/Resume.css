@@ -1,7 +1,11 @@
-.resume {
-    /* overflow: scroll; */
+#resume {
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10vh;
 }
-
+.resume-data {
+    padding: 15px;
+}
 .resume dl {
     display: flex;
     flex-flow: row;
