@@ -9,7 +9,7 @@ export default function Home() {
         <>
         <Layout>
             <div className="home-div">
-                <h1 className="text-center"> Stephen Harrity: Software Engineer </h1>
+                <h1 className="text-center"> Software Engineer </h1>
                 <div id="about-div">
                     <div className="about">
                         <div className="about-info">

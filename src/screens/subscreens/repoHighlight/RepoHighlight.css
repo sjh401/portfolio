@@ -39,7 +39,6 @@
     margin: 5px;
     padding: 10px;
     border-radius: 5px;
-
 }
 .home-project-term {
     display: flex;
@@ -57,7 +56,6 @@
 .home-project-link {
     opacity: 0;
     color: #393e41;
-    text-decoration: none;
 }
 .home-project-link:hover {
     opacity: 1;

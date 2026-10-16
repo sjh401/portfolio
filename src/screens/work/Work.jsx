@@ -6,8 +6,13 @@ export default function Home() {
     return (
         <>
         <Layout>
-            <div className="home-div">
-                <Repos />
+            <div id="work-div">
+                <div className="work-div">
+                    <h1 className="text-center"> Projects </h1>
+                    <div>
+                        <Repos />
+                    </div>
+                </div>
             </div>
         </Layout> 
         </>

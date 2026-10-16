@@ -1,15 +1,14 @@
 #projects-div {
     display: flex;
-    grid-area: 2/4/9/8;
     justify-content: center;
     justify-items: center;
     align-content: center;
     flex-flow: row wrap;
-    height: 100vh;
-    width: 100vw;
+    min-height: 1000px;
     min-height: 500px;
     min-width: 1000px;
     background-color: #587b7f;
+    overflow-y: auto;
 }
 /* 
     393e41
@@ -18,68 +17,94 @@
     587b7f
     1e2019
 */
-.project-div {
+.repo-project-list {
     display: flex;
+    flex-flow: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    background-repeat: no-repeat;
-    background-position: top;
-    color: #393e41;
-    font-size: 1.75vmin;
-    width: 25vmin;
-    height: 25vmin;
+    /* background-repeat: no-repeat; */
+    max-height: 65vhpx;
+    min-height: 500px;
+    min-width: 750px;
     background-size: cover;
     padding: 5px;
 }
+.repo-project-listitem {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-align: left;
+    border: solid 5px #1e2019;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.repo-project-term {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
 
-/* .home-project-div {
-
-} */
-
-.home-project-link {
+.repo-project-link {
     opacity: 0;
-    color: #e0e1dd;
-    text-decoration: none;
+    color: #393e41;
 }
-.home-project-link:hover {
+.repo-project-desc {
+    width: 700px;
+    padding: 0px 0px 0px 50px;
+}
+.repo-project-link:hover {
     opacity: 1;
+    color: #393e41;
+}
+.repo-project-link:focus {
+    opacity: 1;
+    color: #393e41;
+}
+.repo-project-desc {
+    width: 700px;
+    padding: 0px 0px 0px 50px;
 }
 
 
-
-#p1 {
+#repo-p1 {
     background-image: url('https://i.imgur.com/qUiq6PO.png');
     background-color: #d3d0cd;
 }
-#p2{
+#repo-p2{
     background-image: url("https://i.imgur.com/cwI9kTv.png");
     background-color: #d3d0cd;
 }
-#p3 {
+#repo-p3 {
     background-image: url("https://i.imgur.com/1fARzAP.png");
     background-color: #d3d0cd;
 }
-#p4 {
+#repo-p4 {
     background-image: url("https://i.imgur.com/TQjmpNj.png");
     background-color: #d3d0cd;
 }
-#hackathon-sept-2021 {
+#repo-hackathon-sept-2021 {
     background-image: url("https://i.imgur.com/7MXkJQ3.png");
     background-color: #d3d0cd;
 }
-#p1:hover {
+#repo-p1:hover, #repo-p1:focus-within {
     background-image: none;
 }
-#p2:hover {
+#repo-p2:hover, #repo-p2:focus-within {
     background-image: none;
 }
-#p3:hover {
+#repo-p3:focus-within, #repo-p3:hover {
     background-image: none;
 }
-#p4:hover {
+#repo-p4:hover, #repo-p4:focus-within {
     background-image: none;
 }
-#hackathon-sept-2021:hover {
+#repo-hackathon-sept-2021:focus-within, #repo-hackathon-sept-2021:hover {
     background-image: none;
 }
