@@ -1,4 +1,4 @@
-// import About from "../subscreens/about/About";
+// import '../../App.css'
 import './Home.css'
 import Layout from "../../components/layout/Layout";
 import Skills from '../subscreens/skills/Skills';
@@ -9,6 +9,7 @@ export default function Home() {
         <>
         <Layout>
             <div className="home-div">
+                <h1 className="text-center"> Stephen Harrity: Software Engineer </h1>
                 <div id="about-div">
                     <div className="about">
                         <div className="about-info">
