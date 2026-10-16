@@ -1,0 +1,18 @@
+p {
+    margin: 0;
+}
+
+#work-div {
+    width: 100vw;
+    height: 80vh;
+    margin-top: 10vh;
+    overflow-y: auto;
+    background-color: #587b7f;
+    color: #d3d0cd;
+}
+#work-div {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    overflow-y: auto;
+}
