@@ -23,8 +23,8 @@
   },
 "scripts": {
   "start": "vite",
-  "build": "vite build",
-  "serve": "vite preview"
+  "build": "vite build && npx shx cp dist/index.html dist/200.html",
+  "deploy": "surge dist"
 },
   "eslintConfig": {
     "extends": [
