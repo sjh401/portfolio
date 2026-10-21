@@ -11,19 +11,35 @@ export default function Resume() {
                         <h2>SKILLS</h2>
                             <h3>Languages</h3>
                                 <ul>
-                                    <li>JavaScript</li>
+                                    <li>JavaScript (ES6+)</li>
+                                    <li>HTML5</li>
                                     <li>SQL</li>
                                     <li>Ruby</li>
                                     <li>Typescript</li>
+                                    <li>CSS3</li>
                                 </ul>
                             <h3>Frontend Development</h3>
                                 <ul>
                                     <li>React</li>
-                                    <li>JavaScript ES6+</li>
                                     <li>jQuery</li>
                                     <li>Responsive Design</li>
                                     <li>UI Development</li>
                                     <li>Component-Based Architecture</li>
+                                </ul>
+                            <h3>Digital Accessibility</h3>
+                                <ul>
+                                    <li>508 Trusted Tester</li>
+                                    <li>WCAG 2.1/2.2</li>
+                                    <li>WAI-ARIA</li>
+                                    <li>Accessibility Testing</li>
+                                    <li>ADA Compliance</li>
+                                </ul>
+                            <h3>Assistive Technologies:</h3>
+                                <ul>
+                                    <li>VoiceOver</li>
+                                    <li>NVDA</li>
+                                    <li>Screen Reader Auditing</li>
+                                    <li>Automated & Manual Accessibility Testing</li>
                                 </ul>
                             <h3>Backend Development</h3>
                                 <ul>
@@ -33,25 +49,20 @@ export default function Resume() {
                                     <li>API Development</li>
                                     <li>REST APIs</li>
                                 </ul>
-                            <h3>Accessibility</h3>
-                                <ul>
-                                    <li>508 Trusted Tester</li>
-                                    <li>WCAG</li>
-                                    <li>ARIA</li>
-                                    <li>Accessibility Testing</li>
-                                    <li>Digital Accessibility</li>
-                                    <li>ADA Compliance</li>
-                                    <li>Accessible Web Development</li>
-                                </ul>
                             <h3>Tools & Practices</h3>
                                 <ul>
                                     <li>Git</li>
                                     <li>GitHub</li>
                                     <li>JIRA</li>
-                                    <li>Agile Development</li>
+                                    <li>Agile/Scrum Development</li>
                                     <li>SDLC</li>
                                     <li>Cross-functional Collaboration</li>
                                 </ul>
+                        <h2>CERTIFICATIONS</h2>
+                            <dl>
+                                <dt>Section 508 Trusted Tester Certification</dt>
+                                <dd>U.S. Department of Homeland Security (DHS)</dd>
+                            </dl>
                         <h2>PROFESSIONAL EXPERIENCE</h2>
                             <h3>Implementation Developer</h3>
                             <dl>
@@ -61,11 +72,10 @@ export default function Resume() {
                                 <dd>2022 - 2026</dd>
                             </dl>
                             <ul>
-                                <li>Implemented customized digital accessibility solutions across hundreds of client websites using frontend technologies and accessibility best practices.</li>
-                                <li>Developed and enhanced web application solutions using JavaScript, React, HTML, CSS, and modern web development practices.</li>
-                                <li>Performed testing and QA checks to ensure proper functionality and adherence to WCAG and ARIA standards before publishing.</li>
-                                <li>Troubleshooted frontend implementation issues and collaborated across teams.</li>
-                                <li>Supported projects throughout the software development lifecycle.</li>
+                                <li>Engineered and deployed customized digital accessibility remediation scripts across 200+ client websites using modern JavaScript ES6+, React, HTML5, and CSS3.</li>
+                                <li>Conducted rigorous accessibility audits and QA testing utilizing screen readers (VoiceOver, NVDA) and DHS Trusted Tester methodologies to guarantee strict WCAG 2.1/2.2 Level AA and WAI-ARIA compliance.</li>
+                                <li>Collaborated within Agile/Scrum software development lifecycles (SDLC) alongside product managers and engineers to deliver scalable, user-centric accessibility solutions.</li>
+                                <li>Developed reusable UI components and dynamic JavaScript fixes to solve complex accessibility defects across enterprise-level applications.</li>
                             </ul>
                             <h3>Instructional Associate</h3>
                             <dl>
@@ -75,8 +85,8 @@ export default function Resume() {
                                 <dd>2021 - 2022</dd>
                             </dl>
                             <ul>
-                                <li>Supported students in a Software Engineering Immersive program focused on full-stack web development.</li>
-                                <li>Provided technical guidance, reviewed assignments, and supported application projects involving JavaScript, React, Ruby on Rails, HTML, CSS, databases, and Git workflows.</li>
+                                <li>Mentored and evaluated 50+ students through an intensive full-stack Software Engineering Immersive program covering JavaScript, React, Ruby on Rails, REST APIs, and SQL.</li>
+                                <li>Provided code reviews, debugged complex full-stack applications, and instructed best practices in component-based architecture and Git workflows.</li>
                             </ul>
                             <h3>Bar Manager</h3>
                             <dl>
@@ -86,17 +96,15 @@ export default function Resume() {
                                 <dd>2013 - 2021</dd>
                             </dl>
                             <ul>
-                                <li>Developed menus and training materials used fleet-wide while managing inventory and staff at the primary location.</li>
-                                <li>Led training sessions in multiple cities, training hundreds of bartenders and supervisors.</li>
-                                <li>Implemented and maintained changes in POS, and NetChef databases and interfaces.</li>
+                                <li>Managed fleet-wide beverage menu development, inventory architecture, and operational training protocols while directing team staff across primary vessel locations.</li>
                             </ul>
                         <h2> EDUCATION </h2>
                         <ul> 
-                            <li>General Assembly - Software Engineering Immersive Program - 2021</li>
-                            <li>Northwestern University - Bachelor of Arts - 2012</li>
+                            <li>General Assembly - Software Engineering Immersive Program</li>
+                            <li>Northwestern University - Bachelor of Arts</li>
                         </ul>
                     </div>
-                    <a href="https://drive.google.com/file/d/1dGT1iPpdKP6G8_YUo6UVU18Xg9CF9bWx/view?usp=drive_link"> View PDF Version Resume </a>
+                    <a href="https://docs.google.com/document/d/1gZfyWPVyfrrLuuKyaA0KiLqdU7ChMpQyo03APF9YgYs/edit?usp=sharing"> View PDF Version Resume </a>
                 </section>
             </Layout>
         </>
